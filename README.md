@@ -1,9 +1,9 @@
-#-
+
 <html lang="vi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tứ Ngữ Điển — Việt · Trung · Anh · Nhật</title>
+<title>Từ Điển — Việt · Trung · Anh · Nhật</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Noto+Serif+SC:wght@600;700&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -253,8 +253,8 @@
     <div class="seal ja">日</div>
   </div>
   <div class="eyebrow">Tra cứu · Nghe · Nói</div>
-  <h1 class="title">TỨ NGỮ <span class="accent">ĐIỂN</span></h1>
-  <p class="subtitle">Từ điển đối chiếu Việt – Trung (Phồn thể &amp; Giản thể) – Anh – Nhật, kèm luyện phát âm và nghe hiểu từ vựng ngay trên trình duyệt.</p>
+  <h1 class="title">TỪ ĐIỂN <span class="accent">KOI FISH</span></h1>
+  <p class="subtitle">Từ điển Việt – Trung (Phồn thể &amp; Giản thể) – Anh – Nhật, kèm luyện phát âm và nghe hiểu từ vựng ngay trên trình duyệt.</p>
 
   <div class="search-wrap">
     <div class="search-box">
