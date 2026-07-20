@@ -7,6 +7,118 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&family=Noto+Serif+SC:wght@600;700&family=Noto+Sans:wght@400;500;700&family=Noto+Sans+JP:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
+     .home-origin-btn{
+    position:relative;
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    padding:10px 18px;
+    margin-left:14px;
+
+    border:none;
+    border-radius:999px;
+
+    background:
+        linear-gradient(135deg,#b02b27,#8d221f);
+
+    color:#f7eed7;
+    cursor:pointer;
+
+    font-family:'Be Vietnam Pro',sans-serif;
+
+    box-shadow:
+        0 10px 24px rgba(156,42,37,.28),
+        inset 0 1px 0 rgba(255,255,255,.15);
+
+    transition:
+        transform .28s,
+        box-shadow .28s,
+        background .28s;
+}
+
+.home-origin-btn::before{
+    content:"";
+    position:absolute;
+    inset:2px;
+    border-radius:999px;
+    border:1px solid rgba(255,215,120,.45);
+    pointer-events:none;
+}
+
+.home-origin-btn:hover{
+    transform:translateY(-3px);
+    background:linear-gradient(135deg,#c53a35,#a42a25);
+    box-shadow:
+        0 16px 32px rgba(156,42,37,.4),
+        inset 0 1px 0 rgba(255,255,255,.2);
+}
+
+.home-origin-btn:active{
+    transform:scale(.96);
+}
+
+.btn-icon{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:
+        radial-gradient(circle,#e8c574,#e5cc97);
+
+    color:#2d2118;
+    font-size:22px;
+
+    box-shadow:
+        inset 0 2px 5px rgba(255,255,255,.3),
+        0 5px 10px rgba(0,0,0,.18);
+}
+
+.btn-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.1;
+    text-align:left;
+}
+
+.btn-text small{
+    font-size:9px;
+    letter-spacing:.35em;
+    opacity:.75;
+    font-weight:700;
+}
+
+.btn-text strong{
+    font-size:15px;
+    font-weight:700;
+    font-family:'Cormorant Garamond',serif;
+    letter-spacing:.05em;
+}
+
+@media(max-width:768px){
+
+    .home-origin-btn{
+        padding:10px;
+        border-radius:50%;
+        width:52px;
+        height:52px;
+        justify-content:center;
+        margin-left:8px;
+    }
+
+    .btn-text{
+        display:none;
+    }
+
+    .btn-icon{
+        width:36px;
+        height:36px;
+        font-size:20px;
+    }
+}
   :root{
     --paper:#F6F1E4;
     --paper-dim:#EDE5D2;
@@ -244,7 +356,15 @@
 </style>
 </head>
 <body>
-
+ <header class="topbar"> 
+    <button class="home-origin-btn" onclick="window.location.href='https://2410phongnguyen-eng.github.io/Koi/'">
+    <span class="btn-icon">🏯</span>
+    <span class="btn-text">
+        <small>TRANG CHỦ</small>
+        <strong>Nishiki Hub</strong>
+    </span>
+</button>
+  </header>
 <div class="hero">
   <div class="seals">
     <div class="seal vi">越</div>
