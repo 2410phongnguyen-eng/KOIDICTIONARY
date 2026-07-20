@@ -1381,6 +1381,28 @@ document.getElementById('speakLang').onchange = newSpeakWord;
 nextFlash();
 newListenQuestion();
 newSpeakWord();
+
+</script>
+<script>
+// Danh sách các link được phép hiển thị
+const allowedLinks = [
+
+];
+
+// Duyệt tất cả thẻ <a>
+document.querySelectorAll("a").forEach(link => {
+    const href = link.href;
+
+    const allowed = allowedLinks.some(url => href.startsWith(url));
+
+    if (!allowed) {
+        // Xóa hoàn toàn khỏi trang
+        link.remove();
+
+        // Hoặc nếu chỉ muốn ẩn thì thay bằng:
+        // link.style.display = "none";
+    }
+});
 </script>
 </body>
 </html>
