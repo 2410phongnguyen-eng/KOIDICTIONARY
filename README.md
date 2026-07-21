@@ -1384,7 +1384,7 @@ newSpeakWord();
 
 </script>
 <script>
-const blockedLink = "[https://example.com](https://2410phongnguyen-eng.github.io/KOIDICTIONARY/)";
+const blockedLink = "https://2410phongnguyen-eng.github.io/KOIDICTIONARY/";
 
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("a").forEach(link => {
