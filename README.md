@@ -358,7 +358,7 @@
 <body>
  <header class="topbar"> 
     <button class="home-origin-btn" onclick="window.location.href='https://2410phongnguyen-eng.github.io/Koi/'">
-    <span class="btn-icon">🏯</span>
+    <span class="btn-icon"></span>
     <span class="btn-text">
         <small>TRANG CHỦ</small>
         <strong>Nishiki Hub</strong>
